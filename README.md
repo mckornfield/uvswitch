@@ -119,3 +119,7 @@ uvswitch automatically selects the correct binary for your platform:
 
 - Python 3.9+
 - No external dependencies
+
+## License
+
+Apache License 2.0 — see [LICENSE](LICENSE) for details.
