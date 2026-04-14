@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "uvswitch"
+version = "0.1.0"
+description = "Switch uv versions based on pyproject.toml"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+uvswitch = "uvswitch.main:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/uvswitch"]
+
+[tool.uv]
+required-version = ">=0.10.0"
